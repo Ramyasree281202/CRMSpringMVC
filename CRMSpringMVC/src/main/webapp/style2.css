@@ -1,0 +1,49 @@
+form {
+    margin-top: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #0077b6;
+    outline: none;
+}
+
+.save, input[type="submit"] {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.save:hover, input[type="submit"]:hover {
+    background-color: #023e8a;
+}
